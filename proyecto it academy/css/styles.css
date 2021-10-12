@@ -6,294 +6,72 @@ html{
 }
 body{
     background-color:white;
-    width: 100%;
+    
 }
-@media (max-width:500px){
 
-
-    
-    .cont1{
-
-        background-color:black;
-        height:300px;
-        width: 100%;
-        border:black 5px solid;
-    
-    
-        display:flex;
-        flex-direction: row;
-        flex-wrap:wrap;
-    
-        margin:10px;
-    }
-
-    .cont2{
-        background-color:#FEFF03;
-          
-            width: 100%;
-            border:black 5px solid;
-           
-            margin: 10px;
-        
-            display:flex;
-            flex-wrap:wrap; 
-            flex-direction:row;
-    
-    
-            height:50%;   
-    }
-    .cont3{
-    
-        background-color:black;
-        height:60px;
-        width: 100%;
-        border:black 5px solid;
-    
-    
-        margin:10px;
-        display:flex;
-        flex-flow:wrap;
-        
-    }
-    
-    .pad1{
-        background-color: #2D4059;
-       
-        width: 100%;
-        margin:10px;
-    
-    
-        display:flex;
-        flex-flow:row wrap;
-        align-content:center;
-    
-        flex:2 1 auto;
-       
-    }
-    .pad2{
-        background-color:#F07B3F;
-        height:30%;
-        width: 100%;
-        margin:10px;
-    
-        
-        display:flex;
-        flex-direction: row;
-        flex-wrap:wrap; 
-        
-        flex:1 1 auto;
-    }
-    
-    .pad3{
-        background-color:#4E4E6A;
-        height:250px;
-        width: 60%;
-        margin:10px;
-    
-        display:flex;
-        flex-direction: row;
-        flex-wrap:wrap; 
-        flex:1 1 auto;
-    }
-    
-    .pad4{
-        background-color:#F73F52;
-        height:250px;
-        width: 37%;
-        
-        margin:10px;
-        display:flex;
-        flex-flow:row wrap;
-        align-content:flex-start;
-    
-        flex:1 1 auto;
-    }
-    
-    .pad5{
-    
-        background-color:#E6AF2E;
-        width:99%;
-        height:40px;
-        margin:10px;
-        flex:1 1 auto;
-    }
-    
-    .hijo1{
-    
-        
-        height: 20px;
-        background-color: #EA5455;
-        width:90%;
-        align-self:center;
-        margin:10px;
-        flex: 1 1 auto;
-    }
-    
-    .hijo2{
-    
-        
-        height: 20px;
-        background-color: #EA5455;
-        
-        width:90%;
-        align-self:center;
-        
-        margin:10px;
-        flex: 1 1 auto;
-    }
-    
-    .hijo3{
-    
-        
-        height: 20px;
-        background-color: #EA5455;
-        width:90%;
-        margin:10px;
-        display:flex;
-        align-self:center;
-        flex: 1 1 auto;
-        
-       
-    }
-    
-    
-    .hijo4{
-    
-        
-        height: 20px;
-        background-color:#FED460;
-        margin:10px;
-    
-        align-self:center;
-    
-        flex:1 1 auto;
-    }
-    
-    
-    .hijo5,.hijo6,.hijo7,.hijo8{
-    
-        background-color: #226AAC;
-       
-        width:45%;
-        height:20px;
-        align-self:center;
-    
-     
-        flex:1 1 auto;
-        margin:10px;
-    }
-    
-    .hijo9{
-    
-        background-color: #70A3C4;
-        
-        width:50%;
-        height:20px;
-    
-        align-self:center;
-        margin:10px;
-    
-        display:flex;
-        flex:2 1 auto;
-    }
-    
-    .hijo10{
-    
-        background-color: #FEEA85;
-        
-        height:20px;
-        width:90%;
-        margin:10px;
-    
-        display:flex;
-        flex:1 1 auto;
-    }
-    
-    .hijo11{
-    
-        background-color: #FEEA85;  
-        
-        height:20px;
-        width:90%;
-        margin:10px;
-        flex:1 1 auto;
-        
-    
-    }
-    
-    }
     
 
 
-
-
-
-@media(min-width:769px){
 
 
 .cont1{
 
     background-color:black;
-    height:200px;
-    width: 100%;
-    border:black 5px solid;
-
+  
+  
 
     display:flex;
-    flex-direction: column;
+    flex-direction: wrap;
     flex-wrap:wrap;
 
-    margin:10px;
+    align-content: center;
+    flex:1 1 auto;
+    
 }
 
 .cont2{
 
     background-color:black;
-    height:275px;
-    width: 100%;
-    border:black 5px solid;
-
-    margin:10px;
-   
-
+    
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     display:flex;
     flex-flow:wrap;
-    flex-direction:column;
+    flex-direction:row;
+    flex:1 1 auto;
 }
 .cont3{
 
     background-color:black;
     height:60px;
-    width: 100%;
-    border:black 5px solid;
+    
+  
 
 
-    margin:10px;
+   
     display:flex;
     flex-flow:wrap;
-    
+    flex:1 1 auto;
 }
 
 .pad1{
     background-color: #2D4059;
-    height:80px;
-    width: 100%;
-    margin:10px;
-
+   
+    border: 15px black solid;
+    border-bottom: 0px;
 
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-    flex:1 1 auto;
+    flex:1 1 100%;
    
 }
 .pad2{
     background-color:#F07B3F;
     height:80px;
-    width: 100%;
-    margin:10px;
-
+    border: 15px black solid;
     
     display:flex;
     flex-direction: row;
@@ -303,33 +81,30 @@ body{
 
 .pad3{
     background-color:#4E4E6A;
-    height:250px;
-    width: 60%;
-    margin:10px;
 
+    border: 10px black solid;
     display:flex;
     flex-direction: row;
     flex-wrap:wrap; 
-    flex:1 1 auto;
+    flex:1 1 58%;
 }
 
 .pad4{
     background-color:#F73F52;
-    height:250px;
-    width: 37%;
-    
-    margin:10px;
+
+    border: 10px black solid;
+   
     display:flex;
     flex-flow:row wrap;
     align-content:flex-start;
 
-    flex:1 1 auto;
+    flex:1 1 38%;
 }
 
 .pad5{
 
     background-color:#E6AF2E;
-    width:99%;
+    
     height:40px;
     margin:10px;
     flex:1 1 auto;
@@ -366,11 +141,11 @@ body{
     height: 30px;
     background-color: #EA5455;
     
-    margin: auto;
-    display:flex;
+    margin: 10px;
+    
     align-self:center;
     flex: 1 1 auto;
-    gap:10px;
+  
    
 }
 
@@ -392,12 +167,12 @@ body{
 
     background-color: #226AAC;
    
-    width:45%;
+  
     height:25px;
     align-self:center;
 
  
-    flex:1 1 auto;
+    flex:1 1 45%;
     margin:10px;
 }
 
@@ -405,14 +180,14 @@ body{
 
     background-color: #70A3C4;
     
-    width:50%;
+    
     height:25px;
 
     align-self:center;
     margin:10px;
 
     display:flex;
-    flex:2 1 auto;
+    flex:2 1 90%;
 }
 
 .hijo10{
@@ -439,220 +214,66 @@ body{
 
 }
 
-}
+
+
 
 @media (min-width:501px) and (max-width:768px){
 
 
-    .cont1{
 
-        background-color:black;
-        height:200px;
-        width: 100%;
-        border:black 5px solid;
-    
-    
-        display:flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-    
-        margin:10px;
-    }
 
     .cont2{
-        background-color:#FEFF03;
-          
-            width: 100%;
-            border:black 5px solid;
-           
-            margin: 10px;
         
-            display:flex;
-            flex-wrap:wrap; 
-            flex-direction:row;
-    
-    
-            height:50%;   
+            flex-direction:column;         
     }
-    .cont3{
-    
-        background-color:black;
-        height:60px;
-        width: 100%;
-        border:black 5px solid;
-    
-    
-        margin:10px;
-        display:flex;
-        flex-flow:wrap;
+
+    .pad3,.pad4{
+
+        border: 20px yellow solid;
+    }
+
+}
+
+@media  (max-width:500px){
+
+
+
+
+
+
+    .cont1{
+
+       
+        flex-direction: row;
+        flex:1 1 auto;
         
     }
-    
+
     .pad1{
-        background-color: #2D4059;
-        height:80px;
-        width: 100%;
-        margin:10px;
-    
-    
-        display:flex;
+
         flex-direction: row;
-        flex-wrap:wrap;
-        flex:1 1 auto;
-       
+
     }
-    .pad2{
-        background-color:#F07B3F;
-        height:80px;
-        width: 100%;
-        margin:10px;
-    
-        
-        display:flex;
-        flex-direction: row;
-        flex-wrap:wrap; 
-        flex:1 1 auto;
-    }
-    
-    .pad3{
-        background-color:#4E4E6A;
-        height:250px;
-        width: 60%;
-        margin:10px;
-    
-        display:flex;
-        flex-direction: row;
-        flex-wrap:wrap; 
-        flex:1 1 auto;
-    }
-    
-    .pad4{
-        background-color:#F73F52;
-        height:250px;
-        width: 37%;
-        
-        margin:10px;
-        display:flex;
-        flex-flow:row wrap;
-        align-content:flex-start;
-    
-        flex:1 1 auto;
-    }
-    
-    .pad5{
-    
-        background-color:#E6AF2E;
-        width:99%;
-        height:40px;
-        margin:10px;
-        flex:1 1 auto;
-    }
-    
-    .hijo1{
-    
-        
-        height: 30px;
-        background-color: #EA5455;
-       
-        align-self:center;
-        margin:10px;
-    
-        flex: 1 1 auto;
-    }
-    
-    .hijo2{
-    
-        
-        height: 30px;
-        background-color: #EA5455;
-        
-        flex: 2 1 auto;
-        align-self:center;
-        
-        margin:10px;
-        
-    }
-    
-    .hijo3{
-    
-        
-        height: 30px;
-        background-color: #EA5455;
-        
-        margin: auto;
-        display:flex;
-        align-self:center;
-        flex: 1 1 auto;
-        gap:10px;
-       
-    }
-    
-    
-    .hijo4{
-    
-        
-        height: 30px;
-        background-color:#FED460;
-        margin:10px;
-    
-        align-self:center;
-    
-        flex:1 1 auto;
-    }
-    
-    
-    .hijo5,.hijo6,.hijo7,.hijo8{
-    
-        background-color: #226AAC;
-       
-        width:45%;
-        height:25px;
-        align-self:center;
-    
-     
-        flex:1 1 auto;
-        margin:10px;
-    }
-    
-    .hijo9{
-    
-        background-color: #70A3C4;
-        
-        width:50%;
-        height:25px;
-    
-        align-self:center;
-        margin:10px;
-    
-        display:flex;
-        flex:2 1 auto;
-    }
-    
-    .hijo10{
-    
-        background-color: #FEEA85;
-        
-        height:20px;
-        width:90%;
-        margin:10px;
-    
-        display:flex;
-        flex:1 1 auto;
-    }
-    
-    .hijo11{
-    
-        background-color: #FEEA85;  
-        
-        height:20px;
-        width:90%;
-        margin:10px;
-        flex:1 1 auto;
-        
-    
-    }
-    
-    }
-    
 
 
+    .cont2{
+       
+         
+            flex-direction:column;
+            
+    }
+
+    
+
+    .hijo1,.hijo2,.hijo3{
+
+        flex: 1 1 100%;
+    }
+    
+  
+  
+    .pad3,.pad4{
+
+        border: 20px yellow solid;
+    }
+}
